@@ -1,0 +1,17 @@
+{
+  "name": "hersshuffler",
+  "version": "0.1.0",
+  "description": "Shuffles a [0,N-1] sequence",
+  "main": "shuffler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hers-belgrade/hersshuffler.git"
+  },
+  "author": "Andrija Petrovic",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "95129055fe08fb46e76ac80238abd113799eceed"
+}

@@ -12,7 +12,7 @@ function shuffle(length){
       codearray.push(code);
       map[code]=[i];
     }else{
-      (map[code]).push(i);
+      (((randomBytes(1))[0])%2) ? (map[code]).unshift(i):(map[code]).push(i);
     }
   }
   codearray.sort(function(a,b){return a-b;});
